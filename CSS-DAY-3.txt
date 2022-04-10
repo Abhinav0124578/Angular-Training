@@ -16,7 +16,7 @@ CSS
           2. Mixing up both Structural Layer and Presentation Layer
          
     2. Internal Styles 
-        * Written inside html file itself
+        * Written inside head of html file itself
 
         Disadv
         ---

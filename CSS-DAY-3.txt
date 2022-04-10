@@ -1,0 +1,53 @@
+In frontEnd Appn. always name your project with lowercase:
+Eg: 1)arrow 2)orix-bank 3)youtube-v4-project
+
+CSS
+---
+  Cascading Style Sheet 
+
+  Types of Stylesheets
+  ----
+    1. Inline Styles
+        * written in the element itself 
+
+         Disadv
+         ---
+          1. Can't reuse styles 
+          2. Mixing up both Structural Layer and Presentation Layer
+         
+    2. Internal Styles 
+        * Written inside html file itself
+
+        Disadv
+        ---
+          1. Can't reuse styles in other html files
+          2. Mixing up both Structural Layer and Presentation Layer
+          
+    3. External Styles 
+        * Written in separate file with extn .css 
+        * Can be reused in multiple html files
+
+
+  CSS Syntax 
+  -----
+    selector {
+      /* style definition */ 
+      property1: value1;
+      property2: value2;
+    }
+
+  Types of Selectors
+  ---
+    1. Element Selector      
+    2. Id Selector 
+    3. Class Selector (Recommended)
+    4. Attribute Selector 
+    5. Pseudo Selector [TODO]
+
+
+===
+Placing two block level Elements nearby
+---
+  1. using inline-block  Ref: https://jsbin.com/gujepuxavi/edit?html,css,output
+  2. using float (TODO)
+  3. using flex boxes in CSS3 

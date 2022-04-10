@@ -1,0 +1,43 @@
+========================================================
+Ref: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video
+
+
+<section>
+      <img src="https://via.placeholder.com/200" alt="video 1">
+      <h2>Video title 1</h2>
+      <p>Sony Music South</p>
+      <p>45 Lakhs | 3 hours ago</p>
+    </section>
+
+====
+Website/Webapp
+  HTML - Structural Layer  
+  CSS - Presentation Layer 
+  JS  - Interaction Layer 
+
+
+===
+Elements / Tags in HTML
+---
+  1. Block Level Elements
+      Examples: h1 to h6, p, div, header, footer, main, section, article, nav, aside
+
+  2. Inline Elements
+      Examples: a, span, input, img, video, audio, label
+
+Semantic Elements 
+---
+  h1 to h6, p, a, header, footer, main, section, article, nav, aside
+
+Non-Semantic Elements
+---
+  div, span
+
+
+HTML5
+---
+  New Elements
+    header, footer, main, section, article, nav, aside
+
+  New Attributes
+====

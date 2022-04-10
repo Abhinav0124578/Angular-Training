@@ -1,0 +1,92 @@
+Webapps
+---
+  1. Server-Side Rendering Apps (SSR)
+      * Traditional Web Apps 
+
+      Arch 
+      ---
+        1 Server 
+      
+      Codebase
+      ----
+        Front End (HTML, CSS, JS) + BAck End (Java/.Net/PHP/Python/Perl/Ruby/NodeJS) + DB Queries (SQL/NoSQL)
+        Response: HTML, CSS, JS + Data
+
+      Characteristics
+      ---
+        Pages will refresh 
+
+      Adv 
+      --
+        * Search Engine Friendly
+        * Initial Loading will not take longer
+
+      Disadv
+      ---
+        * Server has to do the heavy-lifting 
+        * Slower Webapps 
+        * Complex Codebase resulting maintenance chaos 
+        * High Bandwidth Consumption
+        * Expensive
+
+
+  2. Client-Side Rendering Apps (CSR)
+      * Modern Webapps 
+      Arch 
+      ---
+        2 Servers 
+          1 Server for the Front End App 
+          1 Server for the Back End App 
+      
+      Codebase
+      ----
+        1 Front End App => (HTML, CSS, JS) -- Port 4200
+          * Will be called as Single Page App (SPA)
+          Response: HTML, CSS, JS, placeholder for data
+
+        1 Back End App => (Java/.Net/PHP/Python/Perl/Ruby/NodeJS) + DB Queries (SQL/NoSQL) --- Port 8080
+          * will be called as RESTful API
+          Response: Data (JSON)
+
+      SPA Characteristics (7)
+      ---
+        1. Pages should not refresh 
+        2. URL should change 
+        3. History should be maintained
+        4. Header and Footer should be intact. 
+        5. In between section should be contextually updated
+        6. Active Menu should be set
+        7. Page Title should be changed 
+
+      Adv 
+      --
+        * Workload is shared between two servers 
+        * Faster webapps 
+        * Well-organized codebase
+        * Less Bandwidth Consumption
+        * Less Expensive 
+
+      Disadv
+      ---
+        * Not search engine friendly (We can fix it)
+        * Initial Loading will take longer ( We can fix it)
+
+
+How to Develop SPA?
+==================
+  SPA Frameworks/ Libraries
+  ---
+     #1. React JS  (Library )
+     #2. VueJS  (Framework)
+     #3. Angular 13+  (Framework)
+     #4. Svelte JS (Framework)
+     
+
+=====
+Browser
+=====
+  HTML Renderer  (HTML)
+  CSS Parser  (CSS)
+  JS Engine  (JS)
+
+================
